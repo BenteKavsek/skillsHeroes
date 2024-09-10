@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/81350521ed.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <figure class="logo_figure">
+            <img class="logo_img" src="Media-assets/logo/logo.png" alt="Logo van de website">
+        </figure>
+    </header>
+    <main class="container">
+        <article>
+            <section class="design-sec">
+                <p class="design-sec-intro">Design hier uw <span>skatebord</span>, <span>pet</span> of
+                    <span>schoen</span>.
+                </p>
+
+                <form action="...">
+                    <label for="products">Welk product wilt u maken:</label>
+                    <select onclick="changeImage()" id="products" name="products">
+                        <option value="skateboard">Skateboard</option>
+                        <option value="pet">Pet</option>
+                        <option value="schoen">Schoen</option>
+                    </select>
+                </form>
+                <section class="color-sec">
+
+                    <h3 class="symbol-sec-text"></h3>
+                    <form action="...">
+                        <label for="productColor">Kies een kleur:</label>
+                        <select onclick="changeImage()" id="productColor" name="productColor">
+                            <option value="-rood">Rood</option>
+                            <option value="-blauw">Blauw</option>
+                            <option value="-goud">Goud</option>
+                            <option value="-zilver">Zilver</option>
+                        </select>
+                    </form>
+                </section>
+                <figure class="design-figure">
+                    <img class="design_img" src="/Media-assets/products/skateboard.png" alt="">
+                    <img id="design-symbol" class="design-symbol" src="/Media-assets/symbols/symbol-BAM.png" alt="">
+                </figure>
+
+            </section>
+
+            <section class="order-sec">
+                <section class="symbol-sec">
+
+                    <h3 class="symbol-sec-text">Kies een symbool:</h3>
+                    <div class="library">
+                        <img class="symbol-pick" onclick="changeSymbol('/Media-assets/symbols/symbol-BAM.png')"
+                            src="/Media-assets/symbols/symbol-BAM.png" alt="">
+                        <img class="symbol-pick" onclick="changeSymbol('/Media-assets/symbols/symbol-BANG.png')"
+                            src="/Media-assets/symbols/symbol-BANG.png" alt="">
+                        <img class="symbol-pick" onclick="changeSymbol('/Media-assets/symbols/symbol-BOO.png')"
+                            src="/Media-assets/symbols/symbol-BOO.png" alt="">
+                        <img class="symbol-pick" onclick="changeSymbol('/Media-assets/symbols/symbol-BOOM!.png')"
+                            src="/Media-assets/symbols/symbol-BOOM!.png" alt="">
+                        <img class="symbol-pick" onclick="changeSymbol('/Media-assets/symbols/symbol-LOL.png')"
+                            src="/Media-assets/symbols/symbol-LOL.png" alt="">
+                        <img class="symbol-pick" onclick="changeSymbol('/Media-assets/symbols/symbol-OH.png')"
+                            src="/Media-assets/symbols/symbol-OH.png" alt="">
+                        <img class="symbol-pick" onclick="changeSymbol('/Media-assets/symbols/symbol-OMG!.png')"
+                            src="/Media-assets/symbols/symbol-OMG!.png" alt="">
+                        <img class="symbol-pick" onclick="changeSymbol('/Media-assets/symbols/symbol-POW.png')"
+                            src="/Media-assets/symbols/symbol-POW.png" alt="">
+                        <img class="symbol-pick" onclick="changeSymbol('/Media-assets/symbols/symbol-WOW.png')"
+                            src="/Media-assets/symbols/symbol-WOW.png" alt="">
+                    </div>
+                </section>
+
+
+
+
+
+            </section>
+            <section class="confirm-sec">
+
+                <button>BESTELLEN!!</button>
+                <H2 id="price" class="price">€</H2>
+
+            </section>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

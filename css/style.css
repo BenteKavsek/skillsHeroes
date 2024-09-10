@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.header {
+    background-color: #ec4e20;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logo_img {
+    height: 15rem;
+    rotate: -20deg;
+}
+
+.container {
+    color: #353531;
+    padding: 8rem 0;
+    width: 80vw;
+    margin: auto;
+}
+
+.container article {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.design-sec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.design-sec-intro span {
+    color: #ec4e20;
+}
+
+.design-figure {
+    position: relative;
+}
+
+.design-symbol {
+    position: absolute;
+    left: 14%;
+    top: 42%;
+    height: 8rem;
+    rotate: 10deg;
+}
+
+form {
+    font-size: 2rem;
+}
+
+form select {
+    padding: 0.4rem;
+    border: 0.1rem solid #ec4e20;
+    border-radius: 0.4rem;
+}
+
+.order-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.library {
+    display: flex;
+    gap: 1.4rem;
+}
+
+.symbol-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.symbol-sec-text {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.symbol-pick {
+    border: 2px solid black;
+    height: 9rem;
+    border-radius: 0.4rem;
+}
+
+.color-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
